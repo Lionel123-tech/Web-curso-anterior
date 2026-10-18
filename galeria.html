@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería · Crea't Fest</title>
+  <link rel="icon" href="feather-pointed-solid.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<!-- ===== MISMO HEADER QUE INDEX ===== -->
+<input type="checkbox" id="menu-toggle" class="menu-checkbox">
+<header>
+  <div class="container header-flex">
+    <div class="logo">
+      <div class="logo-icon"><i class="fas fa-feather-alt"></i></div>
+      <div class="logo-text">
+        <h1>Crea't Fest</h1>
+        <span>cultura + innovación</span>
+      </div>
+    </div>
+    <label for="menu-toggle" class="menu-icon" aria-label="Abrir menú">&#9776;</label>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html#inicio">Inicio</a></li>
+        <li><a href="index.html#fechas">Fechas</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="index.html#contacto">Contacto</a></li>
+        <li><a href="index.html#registro">Registro</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <!-- Título de galería -->
+    <h1 class="section-title" style="margin-top: 2rem;"> Galería de eventos anteriores</h1>
+
+    <!-- SLIDER CSS (5 imágenes) -->
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide"><img src="https://img.magnific.com/foto-gratis/amigos-yendo-compras-tienda-antiguedades_23-2149525704.jpg?t=st=1780689047~exp=1780692647~hmac=0dc6570ed8980abbc0c0c0a8464c34aef5bef0da2182c3c1542179425f19671f&w=1480" alt="Exposición de antiguedades"></div>
+        <div class="slide"><img src="https://images.unsplash.com/photo-1712460843930-e92e433c4ba0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Exposición de maximalismo"></div>
+        <div class="slide"><img src="https://images.unsplash.com/photo-1561019503-caec337334a4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Exposición Japonesa"></div>
+        <div class="slide"><img src="https://images.unsplash.com/photo-1593103502393-f19202baf1ea?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Exposición"></div>
+        <div class="slide"><img src="https://images.unsplash.com/photo-1715610258704-e8f9f5710fe0?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Presentación"></div>
+      </div>
+    </div>
+
+    <!-- GRID 2x2 de imágenes del festival -->
+    <h2 class="section-title"> Imágenes del festival 2026</h2>
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1569713694846-bf1dbbfe1351?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=800&h=880&fit=crop" alt="Arte digital" data-large="https://images.unsplash.com/photo-1569713694846-bf1dbbfe1351?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=800&h=600&fit=crop">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1561489396-888724a1543d?w=400&h=300&fit=crop" alt="Taller VR" data-large="https://images.unsplash.com/photo-1561489396-888724a1543d?w=800&h=600&fit=crop">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop" alt="Actuación" data-large="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=600&fit=crop">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=300&fit=crop" alt="Conferencia" data-large="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop">
+      </div>
+    </div>
+
+    <div class="text-center mt-3" style="margin-bottom: 3rem;">
+      <a href="index.html" class="btn">← Volver al inicio</a>
+    </div>
+  </div>
+</main>
+
+<!-- ===== MISMO FOOTER QUE INDEX ===== -->
+<footer>
+  <div class="footer-social">
+    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+  </div>
+  <div class="footer-links">
+    <a href="terminos.html">Términos y condiciones</a>
+    <a href="cookies.html">Política de cookies</a>
+    <a href="privacidad.html">Política de privacidad</a>
+  </div>
+  <div class="copyright">
+    © 2026 · Diseñado por Lionel S. Collazos R.— Crea't Fest, cultura digital y creatividad.
+  </div>
+</footer>
+
+<!-- Lightbox (para ampliar imágenes al hacer clic) -->
+<div id="lightbox" class="lightbox">
+  <span class="close-lightbox">&times;</span>
+  <img id="lightboxImg" src="" alt="Imagen ampliada">
+</div>
+
+<script>
+  // Lightbox para imágenes del grid
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const closeLightbox = document.querySelector('.close-lightbox');
+
+  galleryItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const img = item.querySelector('img');
+      const largeSrc = img.getAttribute('data-large') || img.src;
+      lightboxImg.src = largeSrc;
+      lightbox.style.display = 'flex';
+    });
+  });
+
+  function cerrarLightbox() {
+    lightbox.style.display = 'none';
+    lightboxImg.src = '';
+  }
+  closeLightbox.addEventListener('click', cerrarLightbox);
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) cerrarLightbox();
+  });
+</script>
+</body>
+</html>

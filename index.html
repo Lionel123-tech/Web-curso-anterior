@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <!-- CABECERA: metadatos, título, estilos y fuentes -->
+
+<head>       
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crea't Fest 2026 - Festival de Arte y Cultura Digital</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="feather-pointed-solid.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+    <body>
+    
+    <!-- ENCABEZADO: logo + menú de navegación -->
+            
+<input type="checkbox" id="menu-toggle" class="menu-checkbox">
+<header>
+  <div class="container header-flex">
+    <div class="logo">
+      <div class="logo-icon"><i class="fas fa-feather-alt"></i></div>
+      <div class="logo-text">
+        <h1>Crea't Fest</h1>
+        <span>cultura + innovación</span>
+      </div>
+    </div>
+    <label for="menu-toggle" class="menu-icon" aria-label="Abrir menú">&#9776;</label>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#fechas">Fechas</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#registro">Registro</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+            
+    <main>
+  <!-- SECCIÓN INICIO: hero, fechas, itinerario, patrocinadores -->
+  <section id="inicio">
+    <!-- Bloque Hero -->
+    <div class="hero">
+      <div class="hero-content">
+        <h2>Bienvenidxs a Crea't Fest 2026</h2>
+        <p>El encuentro donde la creatividad digital, el arte y la tecnología se fusionan. 3 días de inspiración, talleres y experiencias únicas.</p>
+        <a href="#registro" class="btn btn-register-hero"> Regístrate ahora</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Sección de fechas y calendario -->
+      <div id="fechas">
+        <h2 class="section-title"> Fechas y calendario</h2>
+        <div class="dates-grid">
+          <div class="event-info">
+            <h3> Sobre el evento</h3>
+            <p>Del 10 al 12 de abril de 2026, el Crea't Fest reunirá a artistas digitales, creadores de contenido, diseñadores y makers. Conferencias, talleres interactivos y un espacio de networking vibrante.</p>
+            <p><i class="fas fa-map-marker-alt"></i> Fira Digital, Barcelona</p>
+          </div>
+          <div class="calendar-card">
+            <h3> Calendario destacado</h3>
+            <div class="calendar-grid">
+              <div class="cal-weekday">Lun</div><div class="cal-weekday">Mar</div><div class="cal-weekday">Mié</div><div class="cal-weekday">Jue</div>
+              <div class="cal-weekday">Vie</div><div class="cal-weekday">Sáb</div><div class="cal-weekday">Dom</div>
+              <div class="cal-day">1</div><div class="cal-day">2</div><div class="cal-day">3</div><div class="cal-day">4</div>
+              <div class="cal-day">5</div><div class="cal-day">6</div><div class="cal-day">7</div><div class="cal-day">8</div>
+              <div class="cal-day">9</div><div class="cal-day highlight">10</div><div class="cal-day highlight">11</div>
+              <div class="cal-day highlight">12</div><div class="cal-day">13</div><div class="cal-day">14</div>
+            </div>
+            <p class="calendar-note"><span class="event-dot"></span> Evento activo</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Itinerario en tabla -->
+      <div class="mt-2">
+        <h3 class="section-title">Itinerario de actividades</h3>
+        <div class="table-wrapper">
+          <table class="itinerary-table">
+            <thead><tr><th>Horario</th><th>Viernes 10 abril</th><th>Sábado 11 abril</th><th>Domingo 12 abril</th></tr></thead>
+            <tbody>
+              <tr><td>10:00 - 11:30</td><td>Inauguración + Keynote</td><td>Taller: UI/UX creativo</td><td>Mesa redonda: IA y arte</td></tr>
+              <tr><td>12:00 - 13:30</td><td>Demo de realidad mixta</td><td>Workshop: Motion graphics</td><td>Presentación de proyectos</td></tr>
+              <tr><td>15:00 - 17:00</td><td>Networking & Feria</td><td>Hackatón creativa</td><td>Clausura + actuación musical</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Patrocinadores con efecto flipcard -->
+      <div class="mt-3">
+        <h3 class="section-title">Patrocinadores oficiales</h3>
+        <div class="sponsors-flip-grid">
+          <div class="sponsor-flip">
+            <div class="flip-inner">
+              <div class="flip-front"><img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?w=150&auto=format" alt="TechDigital"></div>
+              <div class="flip-back"><h4>TechDigital</h4><a href="#" target="_blank">Visitar web</a></div>
+            </div>
+          </div>
+          <div class="sponsor-flip">
+            <div class="flip-inner">
+              <div class="flip-front"><img src="https://images.unsplash.com/photo-1611241893603-3c359704e0ee?w=150&auto=format" alt="ArtHub"></div>
+              <div class="flip-back"><h4>ArtHub</h4><a href="#" target="_blank">Visitar web</a></div>
+            </div>
+          </div>
+          <div class="sponsor-flip">
+            <div class="flip-inner">
+              <div class="flip-front"><img src="https://plus.unsplash.com/premium_photo-1682093307277-a14e0c36b8a2?w=150&auto=format" alt="CreativaLab"></div>
+              <div class="flip-back"><h4>CreativaLab</h4><a href="#" target="_blank">Visitar web</a></div>
+            </div>
+          </div>
+          <div class="sponsor-flip">
+            <div class="flip-inner">
+              <div class="flip-front"><img src="https://images.unsplash.com/3/doctype-hi-res.jpg?w=150&auto=format" alt="FutureWave"></div>
+              <div class="flip-back"><h4>FutureWave</h4><a href="#" target="_blank">Visitar web</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-2">
+          <a href="#contacto" class="btn">Contáctanos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN FAQ con efecto flipcard -->
+  <section id="faq" class="container">
+    <h2 class="section-title">Preguntas frecuentes</h2>
+    <div class="faq-flip-grid">
+      <div class="faq-flip">
+        <div class="flip-inner">
+          <div class="flip-front"><h3> ¿Cómo comprar entradas?</h3><p>Pulsa o pasa el ratón para más info.</p></div>
+          <div class="flip-back"><p>Las entradas están disponibles a través del formulario de registro. Simula tu registro y recibirás un correo de confirmación.</p></div>
+        </div>
+      </div>
+      <div class="faq-flip">
+        <div class="flip-inner">
+          <div class="flip-front"><h3> ¿Dónde se celebra?</h3><p>Pulsa o pasa el ratón para más info.</p></div>
+          <div class="flip-back"><p>En la Fira Digital de Barcelona, Av. Diagonal, 640. Puedes ver el mapa en la sección Contacto.</p></div>
+        </div>
+      </div>
+      <div class="faq-flip">
+        <div class="flip-inner">
+          <div class="flip-front"><h3> ¿Hay actividades para niños?</h3><p>Pulsa o pasa el ratón para más info.</p></div>
+          <div class="flip-back"><p>Sí, el sábado por la mañana hay talleres familiares de realidad aumentada.</p></div>
+        </div>
+      </div>
+      <div class="faq-flip">
+        <div class="flip-inner">
+          <div class="flip-front"><h3> Accesibilidad</h3><p>Pulsa o pasa el ratón para más info.</p></div>
+          <div class="flip-back"><p>Recinto adaptado para sillas de ruedas, y soporte en lengua de signos en las charlas principales.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN CONTACTO (con validación JS) -->
+  <section id="contacto" class="container">
+    <h2 class="section-title">Contacto</h2>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Sede del festival</h3>
+        <p><i class="fas fa-location-dot"></i> Av. Diagonal 640, 08017 Barcelona<br> <i class="fas fa-phone-alt"></i> +34 932 123 456</p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.688590238522!2d2.134748!3d41.392979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4987b3f5e3d6d%3A0x2e7b8c5e2b8d0f!2sAv.%20Diagonal%2C%20640%2C%2008017%20Barcelona!5e0!3m2!1ses!2ses!4v1680000000000!5m2!1ses!2ses" width="100%" height="220"></iframe>
+        </div>
+        <p><strong>Síguenos en redes</strong></p>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div>
+        <h3>Envíanos un mensaje</h3>
+        <form id="contactForm">
+          <div class="form-group">
+            <label>Nombre completo </label>
+            <input type="text" name="nombre" id="contactNombre" required placeholder="Tu nombre">
+          </div>
+          <div class="form-group">
+            <label>Correo electrónico </label>
+            <input type="email" name="email" id="contactEmail" required placeholder="ejemplo@dominio.com">
+          </div>
+          <div class="form-group">
+            <label>Asunto </label>
+            <input type="text" name="asunto" id="contactAsunto" required placeholder="Motivo del contacto">
+          </div>
+          <div class="form-group">
+            <label>Mensaje </label>
+            <textarea rows="4" name="mensaje" id="contactMensaje" required placeholder="Escribe aquí..."></textarea>
+          </div>
+          <button type="submit" class="btn">Enviar consulta</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN REGISTRO (con validación JS) -->
+  <section id="registro" class="container">
+    <h2 class="section-title">Registro al festival</h2>
+    <div>
+      <p>Regístrate para recibir información y acceso al evento</p>
+      <form id="registerForm">
+        <div class="form-group">
+          <label>Nombre completo* </label>
+          <input type="text" id="regNombre" required placeholder="Nombre y apellidos">
+        </div>
+        <div class="form-group">
+          <label>Correo electrónico* </label>
+          <input type="email" id="regEmail" required placeholder="correo@ejemplo.com">
+        </div>
+        <div class="form-group">
+          <label>Contraseña* </label>
+          <input type="password" id="regPass" required placeholder="mínimo 6 caracteres">
+        </div>
+        <div class="form-group">
+          <label>Confirma la contraseña* </label>
+          <input type="password" id="regPassConfirm" required placeholder="vuelve a escribir la contraseña">
+        </div>
+        <button type="submit" class="btn">Registrarme</button>
+        <p class="legal-note">*Campos obligatorios.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- PIE DE PÁGINA -->
+<footer>
+  <div class="footer-social">
+    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+  </div>
+  <div class="footer-links">
+    <a href="terminos.html">Términos y condiciones</a>
+    <a href="cookies.html">Política de cookies</a>
+    <a href="privacidad.html">Política de privacidad</a>
+  </div>
+  <div class="copyright">
+    © 2026 · Diseñado por Lionel S. Collazos R.— Crea't Fest, cultura digital y creatividad.
+  </div>
+</footer>
+
+<!-- Modal de bienvenida (solo primera visita) -->
+<div id="welcomeModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h2> ¡Bienvenid@ a Crea't Fest 2026!</h2>
+    <p>Disfruta de la experiencia digital, explora la galería, conoce los patrocinadores y no olvides registrarte para participar.</p>
+    <button id="closeModalBtn" class="btn">Cerrar</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
